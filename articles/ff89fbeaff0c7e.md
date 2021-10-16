@@ -1,9 +1,9 @@
 ---
 title: "puppeteer + Jest でtestが完了してもexitしなかった"
-emoji: "🗂"
+emoji: "🥝"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [jest, puppeteer]
-published: false
+published: true
 ---
 
 ## 起きたこと
@@ -16,14 +16,14 @@ This usually means that there are asynchronous operations that weren't stopped i
 
 testは正常に完了していたので、原因特定に時間を少しかけてしまった。
 
-## 原因
+## 原因 && 解決策
 公式のドキュメントに答えを発見。
 ドキュメントのGuidesの部分に丁寧にpuppeteerを使う際の注意事項が記載されている。
 
 https://jestjs.io/docs/puppeteer#custom-example-without-jest-puppeteer-preset
 
 puppeteerでbrowserやpageをcloseしないとprocessが残ってしまい、上記エラーが出る模様。
-`await page.close();`や`await browser.close();`を忘れないようにすれば**OK.**
+解決策としては、`await page.close();`や`await browser.close();`を忘れないようにすれば**OK.**
 
 ## 参考にしたサイト
 
