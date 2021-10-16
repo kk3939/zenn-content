@@ -1,5 +1,5 @@
 ---
-title: "puppeteer + Jest でtestが完了してもexitしなかった"
+title: "puppeteer + Jest でtestが完了してもexitしなかったのでその対処"
 emoji: "🥝"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [jest, puppeteer]
