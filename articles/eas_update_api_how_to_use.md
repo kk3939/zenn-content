@@ -3,7 +3,7 @@ title: "【react native】EAS update APIを使用してアプリが起動する�
 emoji: "🚘"
 type: "tech"
 topics: ["reactnative", "expo"]
-published: false
+published: true
 ---
 
 react nativeのEAS updateではJS部分をストアを介さずに更新できて、スピード感を持った開発を実現しています。
