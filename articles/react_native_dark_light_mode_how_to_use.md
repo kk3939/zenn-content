@@ -3,7 +3,7 @@ title: "【react native】expo使ってOSのダークモードとライトモー
 emoji: "🚦"
 type: "tech"
 topics: ["reactnative", "expo"]
-published: false
+published: true
 ---
 
 react nativeでOSのダークモードとライトモードを取得する方法がすごい簡単だったのでメモする。
