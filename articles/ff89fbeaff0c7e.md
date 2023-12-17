@@ -3,7 +3,7 @@ title: "puppeteer + Jest でtestが完了してもexitしなかったのでそ�
 emoji: "🥝"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [jest, puppeteer]
-published: false
+published: true
 ---
 
 ## 起きたこと
