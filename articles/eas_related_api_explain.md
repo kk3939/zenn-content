@@ -3,7 +3,7 @@ title: "EAS build, submit, update周りを理解する"
 emoji: "🚝"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["expo", "reactnative"]
-published: false
+published: true
 ---
 
 expo + react nativeで開発していると、EAS周りの理解は不可欠です。
