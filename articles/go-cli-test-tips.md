@@ -53,3 +53,5 @@ func setup_test(a string) (*CLI, []string, *bytes.Buffer, *bytes.Buffer) {
 }
 ```
 
+## 参考
+https://gihyo.jp/article/2022/11/tsukinami-go-03
