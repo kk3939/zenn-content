@@ -14,10 +14,10 @@ GoでCLIツールを作る際のテストしやすい設計がわからなかっ
 
 // io.Writerで出力先の構造体を宣言
 type CLI struct {
- 	outStream, errStream io.Writer
+  outStream, errStream io.Writer
 }
 
-// 実行部分をRunメソッドとして定義しておいて、引数などを引数として入れる
+// 実行部分をRunメソッドとして定義しておいて、コマンド実行時の引数などをメソッドの引数として入れる
 func main() {
   cli := &CLI{outStream: os.Stdout, errStream: os.Stderr}
   // 戻り値としてステータスコードをリターンする
@@ -46,10 +46,10 @@ write methodはbyteを受け取ってデータとエラーを返すらしいの�
 ```go
 // test実行前に実行する関数
 func setup_test(a string) (*CLI, []string, *bytes.Buffer, *bytes.Buffer) {
-	outStream, errStream := new(bytes.Buffer), new(bytes.Buffer)
-	cli := &CLI{outStream: outStream, errStream: errStream}
-	args := strings.Split(a, " ")
-	return cli, args, outStream, errStream
+  outStream, errStream := new(bytes.Buffer), new(bytes.Buffer)
+  cli := &CLI{outStream: outStream, errStream: errStream}
+  args := strings.Split(a, " ")
+  return cli, args, outStream, errStream
 }
 ```
 
