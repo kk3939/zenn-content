@@ -3,7 +3,7 @@ title: "GoでサクッとCLIツールを作る時にテスタブルにするtips
 emoji: "🏭"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["go", "cli"]
-published: false
+published: true
 ---
 
 GoでCLIツールを作る際のテストしやすい設計がわからなかったので、現状調べた感じの良さそうな実装をメモします。
